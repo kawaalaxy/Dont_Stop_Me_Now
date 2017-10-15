@@ -118,10 +118,10 @@ let draw_board board size =
 (*rules*)
 let rules0 cell near =
   if near = 3 && cell = 0 then
-    1
+    new_cell
   else
     if near <> 2 && near <> 3 && cell = 1 then
-      0
+      empty
     else
       cell ;;
 
@@ -131,7 +131,7 @@ let rec seed_life board size nb_cell = match nb_cell with
   |_ -> put_cell 1 ((Random.int size),(Random.int size)) (seed_life board size (nb_cell-1));;
 
 (*2*)
-let new_board size nb_cell = seed_life (gen_board (size,size) 0) size nb_cell;;
+let new_board size nb_cell = seed_life (gen_board (size,size) empty) size nb_cell;;
 
 (*3*)
 let next_generation board =
@@ -154,18 +154,33 @@ let next_generation board =
 let rec game board = function
   |0-> draw_board board (length board)
   |n-> draw_board board (length board) ; game (next_generation board) (n-1);;
-let board = new_board 25 150;;
+
 
 (*5*)
 let new_game size nb_cell n =
   open_window (size*size + 40) ;
   game (new_board size nb_cell) n;;
 
-new_game 25 400 1000;;
+
 
 (*Bonus*)
-let remaining board = if board = gen_board ((length board),(length board)) 0 then
+let remaining board = if board = gen_board ((length board),(length board)) empty then
     1=0
   else 1=1;;
 
-;;
+let new_game size nb_cell n =
+  open_window (size*size + 40) ;
+  let board = new_board size nb_cell in 
+  game board n;
+  let rec to_infinity board =
+    if (remaining board) = false then
+    game board 0
+  else
+   ( game board (n-1) ; to_infinity (next_generation board) )
+     
+  in
+  to_infinity board;;
+open_window 400;;
+game [[1;1;1;1;1;1;1;1;1;1];[0;0;0;0;0;0;0;0;0;0];[1;0;1;0;1;0;1;0;1;0];[0;1;0;1;0;1;0;1;0;1];[0;0;0;0;0;0;0;0;0;0];
+	     [1;1;1;1;1;1;1;1;1;1];[0;0;0;0;0;0;0;0;0;0];[1;0;1;0;1;0;1;0;1;0];[0;1;0;1;0;1;0;1;0;1];[0;0;0;0;0;0;0;0;0;0]] 6 ;;
+(*new_game 40 500 1;;*)
