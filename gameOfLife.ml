@@ -8,7 +8,7 @@
 open Graphics ;;
 
 let open_window size =
-  open_graph(string_of_int size ^ "x" ^ string_of_int (size+20));;
+  open_graph(" " ^ string_of_int size ^ "x" ^ string_of_int (size+20));;
 
 let grey = rgb 127 127 127 ;;
 
@@ -152,8 +152,8 @@ let next_generation board =
 
 (*4*)
 let rec game board = function
-  |0-> draw_board board (length board)
-  |n-> draw_board board (length board) ; game (next_generation board) (n-1);;
+  |0-> draw_board board cell_size
+  |n-> draw_board board cell_size ; game (next_generation board) (n-1);;
 
 
 (*5*)
@@ -180,11 +180,12 @@ let new_game size nb_cell n =
      
   in
   to_infinity board;;
+new_game 25 200 1000;;
 (*open_window 500;;
 draw_board [[0;0;0;0;0;0;0;0;0;0];[0;0;0;0;0;0;0;0;0;0];[0;1;1;0;0;0;0;0;0;0];[0;0;0;1;0;0;1;1;0;0];[0;0;0;0;1;0;0;0;0;0];
 	     [0;0;0;0;1;0;0;0;0;0];[0;0;0;1;0;0;1;1;0;0];[0;1;1;0;0;0;0;0;0;0];[0;0;0;0;0;0;0;0;0;0];[0;0;0;0;0;0;0;0;0;0]] 10;;*)
 
-new_game 35 300 4;;
+(*new_game 40 300 1000;;*)
 
 (*open_window 400;;
 game [[1;1;1;1;1;1;1;1;1;1];[0;0;0;0;0;0;0;0;0;0];[1;0;1;0;1;0;1;0;1;0];[0;1;0;1;0;1;0;1;0;1];[0;0;0;0;0;0;0;0;0;0];
