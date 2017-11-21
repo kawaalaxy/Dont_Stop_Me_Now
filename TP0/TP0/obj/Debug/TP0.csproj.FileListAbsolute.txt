@@ -1,0 +1,12 @@
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\obj\Debug\TP0.csprojResolveAssemblyReference.cache
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\TP0.exe
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\TP0.pdb
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\mscorlib.dll
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\normidna.nlp
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\normnfc.nlp
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\normnfd.nlp
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\normnfkc.nlp
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\bin\Debug\normnfkd.nlp
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\obj\Debug\TP0.exe
+C:\Users\cleme\Desktop\Travail\Prog\C#\TP0\TP0\obj\Debug\TP0.pdb
