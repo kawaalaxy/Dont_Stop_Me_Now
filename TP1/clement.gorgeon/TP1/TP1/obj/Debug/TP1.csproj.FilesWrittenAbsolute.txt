@@ -1,0 +1,10 @@
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/TP1/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/TP1/bin/Debug/TP1.pdb
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/TP1/bin/Debug/TP1.exe
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/TP1/obj/Debug/TP1.exe
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/TP1/obj/Debug/TP1.pdb
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/clement.gorgeon/TP1/TP1/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/clement.gorgeon/TP1/TP1/bin/Debug/TP1.pdb
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/clement.gorgeon/TP1/TP1/bin/Debug/TP1.exe
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/clement.gorgeon/TP1/TP1/obj/Debug/TP1.exe
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/TP1/clement.gorgeon/TP1/TP1/obj/Debug/TP1.pdb
