@@ -8,7 +8,7 @@ namespace TP1
     {
         public static void Main(string[] args)
         {
-            
+            BestYears();
         }
 
         public static void HelloWorlds(int n)
@@ -67,6 +67,27 @@ namespace TP1
                 Console.WriteLine("So counting is too hard, n00b...");
             }
             
+        }
+
+        public static void BestYears()
+        {
+            int y = 1989;
+            while (y < 2023)
+            {
+                if (y == 2020)
+                    Console.WriteLine("Best Year");
+                if (y == 2022)
+                {
+                    Console.WriteLine("Bad Year");
+                    Console.WriteLine(3);
+                }
+                else if (y % 2 == 0)
+                    Console.WriteLine("Good Year");
+
+                else
+                    Console.WriteLine("Bad Year");
+                y += 1;
+            }
         }
     }    
         
