@@ -1,0 +1,61 @@
+static void Music()
+        {
+            Console.WriteLine("Which music do you want to play?\n1) Super Mario Bros.\n2) Star Wars\n3) Highway to hell\n4) Autre");
+            int i = 0;
+            string s = "";
+            string s4 = "AeacaeCegcgeGBDgDBEBegeB";
+            string s1 = "mm m cm s  g  c g e abag";
+            string s2 = "DDDg  d  cbas  d  cbas  d  cbca";
+            string s3 = "e   ddd   aaa   smdbaag e   ddd   aaa   Bp BA Bi BB";
+            int r = int.Parse(Console.ReadLine());
+            if (r == 1)
+                s = s1;
+            else if (r == 2)
+                s = s2;
+            else if (r == 3)
+                s = s3;
+            else if (r == 4)
+                s = s4;
+            else
+                Console.WriteLine("enter valid number");
+            while (i < s.Length)
+            {
+                if (s[i] == 'A')
+                    Console.Beep(110, 600);
+                else if (s[i] == 'E')
+                    Console.Beep(82, 600);
+                else if (s[i] == 'e')
+                    Console.Beep(165, 600);
+                else if (s[i] == 'm')
+                    Console.Beep(330, 600);
+                else if (s[i] == 'a')
+                    Console.Beep(220, 600);
+                else if (s[i] == 'i')
+                    Console.Beep(116, 600);
+                else if (s[i] == 'c')
+                    Console.Beep(262, 600);
+                else if (s[i] == 'C')
+                    Console.Beep(131, 600);
+                else if (s[i] == 'g')
+                    Console.Beep(196, 600);
+                else if (s[i] == 's')
+                    Console.Beep(392, 600);
+                else if (s[i] == 'G')
+                    Console.Beep(98, 600);
+                else if (s[i] == 'p')
+                    Console.Beep(104, 600);
+                else if (s[i] == 'B')
+                    Console.Beep(123, 600);
+                else if (s[i] == 'b')
+                    Console.Beep(246, 600);
+                else if (s[i] == 'D')
+                    Console.Beep(147, 600);
+                else if (s[i] == 'd')
+                    Console.Beep(294, 600);
+                else if (s[i] == ' ')
+                    Thread.Sleep(300);
+                i = i+1;
+                
+            }
+            
+        }
