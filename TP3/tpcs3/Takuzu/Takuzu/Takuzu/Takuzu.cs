@@ -40,9 +40,10 @@ namespace Takuzu
             //FIXME
             int i = 0;
             int ly = grid.GetLength(1);
-            while (i > ly && )
+            bool Condition = true;
+            while (i < ly && Condition)
             {
-                
+                Condition = false;
             }
             return false;
         }
