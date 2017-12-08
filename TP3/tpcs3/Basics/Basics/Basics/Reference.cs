@@ -18,13 +18,17 @@ namespace Basics
             //FIXME
             int g = (int) f;
             f = f - g;
-            return g;
+                return g;
         }
 
         public static void RotChar(ref char c, int n)
         {
             //FIXME    
-            
+            int p = (int) c;
+            if (p > 47)
+            {
+                
+            }
         }
 
         public static void test(int[]arr)
