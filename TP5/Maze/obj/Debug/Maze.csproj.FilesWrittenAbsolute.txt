@@ -1,0 +1,5 @@
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/Dont_Stop_Me_Now/TP5/TP5/Maze/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/Dont_Stop_Me_Now/TP5/TP5/Maze/bin/Debug/Maze.pdb
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/Dont_Stop_Me_Now/TP5/TP5/Maze/bin/Debug/Maze.exe
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/Dont_Stop_Me_Now/TP5/TP5/Maze/obj/Debug/Maze.exe
+/afs/cri.epita.net/user/c/cl/clement.gorgeon/u/SUP/C#/Dont_Stop_Me_Now/TP5/TP5/Maze/obj/Debug/Maze.pdb
